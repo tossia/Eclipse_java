@@ -1,17 +1,18 @@
-//Sum of two numbers
+//Dozens
 import java.util.Scanner;
 
-public class Program2 {
+public class Program3 {
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
 
 		System.out.print("");
-		int a = in.nextInt(), b = in.nextInt();
+		int a = in.nextInt();
 
-		System.out.println("—ÛÏÏ‡ = " + (a + b));
-		
+		System.out.println( a / 10);
+
 		in.close();
 	}
-	
+
 }
