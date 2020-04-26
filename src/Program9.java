@@ -30,7 +30,7 @@ public class Program9 {
 			sec2 = String.valueOf(sec1);
 		}
 		
-		System.out.print(String.valueOf(hour)+":"+min2+":"+sec2);
+		System.out.print(hour +":"+min2+":"+sec2);
 		in.close();
 	}
 }

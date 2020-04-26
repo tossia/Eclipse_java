@@ -10,7 +10,7 @@ public class Program2 {
 		int a = in.nextInt(), b = in.nextInt();
 
 		System.out.println("Сумма = " + (a + b));
-		
+
 		in.close();
 	}
 	
