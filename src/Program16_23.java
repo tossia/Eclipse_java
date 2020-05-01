@@ -5,34 +5,29 @@ public class Program16_23 {
 	public static Scanner in = new Scanner(System.in);
     
 	public static void main(String[] args) {
-
 		System.out.print("");
-		int month = in.nextInt();
-		int day = in.nextInt();
+		int number = in.nextInt();
+		int number1 = number % 10;
+		int number10 = number % 100;
+		int numberTen = number10 / 10;
+		int sto = number % 1000;
+		String ten = "X";
+		String numberRome;
 		
-		switch (month) {
-		case (2):
-			System.out.println(28);
-			break;
-		case (4):
-		case (6):
-		case (9):
-		case (11):
-			System.out.println(30);
-			break;
-		case (1):
-		case (3):
-		case (5):
-		case (7):
-		case (8):
-		case (10):
-		case (12):
-			System.out.println(31);
-			break;
-		default:
-			System.out.println(0);
-		}		
+		System.out.println("number1 = "+number1);
+		System.out.println("number10 = "+number10);
+		System.out.println("numberTen = "+numberTen);
+		System.out.println("sto = " +sto);
+
+		if (number==100) {
+		  System.out.println("C");
+		} else {
+			if (numberTen == 0) {
+				numberRome = ten * numberTen;
+			}
+		}
 		
+
 		in.close(); 
 	}
 }
