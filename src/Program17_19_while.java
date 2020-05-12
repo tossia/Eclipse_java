@@ -6,7 +6,8 @@ public class Program17_19_while {
     
 	public static void main(String[] args) {
 		System.out.print("");
-		int number = in.nextInt();
+		int nbBrich = in.nextInt();
+		
 
 		int primeNumber = 0;
 		
